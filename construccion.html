@@ -1,0 +1,35 @@
+<html>
+<head>
+	<title>Dpto Construccion</title>
+	<h1 align="center"> <u>Departamento de Construccion</u></h1><br>
+</head>
+<body>
+	<form action="calcons.php" mothod="GET">
+		<h3 style="color:red">Cantidad de alambre a utilizar</h3>
+		<h4 style="color:blue">...Calcule la cantidad sabiendo largo y ancho del terreno...</h4>
+		Largo del terreno
+		<input type="text" name="l1">
+		Ancho del terreno
+		<input type="text" name="a1">
+		<input type="submit" name="btn1" value="Calcular"><br><br>
+	</form>
+
+	<form action="calcons.php" method="GET">
+		<h4 style="color:blue" >...Calcule la cantidad para un terreno circular...</h4>
+		Radio del terreno
+		<input type="text" name="radio">
+		<input type="submit" name="btn2" value="Calcular"><br><br><br><br><br><br>
+	</form>
+
+	<form action="calcons.php" method="GET">
+		<h3 style="color:red">Cantidad de Materiales</h3>
+		<h4 style="color:blue">...Calcule cantidad de bolsas de cemento y cal para un contrapiso...</h4>
+		Largo
+		<input type="text" name="l2" >
+		Ancho
+		<input type="text" name="a2" >
+		<input type="submit" name="btn3" value="calcular">
+	</form>
+
+</body>
+</html>
